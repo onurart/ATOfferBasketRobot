@@ -1,0 +1,2 @@
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.BasketStatusFeatures.Commands.CreateBasketStatusCompany;
+public sealed record CreateBasketStatusCompanyCommandResponse(string Message = "Tüm Sepet Kaydı Başarıyla Aktarıldı!");

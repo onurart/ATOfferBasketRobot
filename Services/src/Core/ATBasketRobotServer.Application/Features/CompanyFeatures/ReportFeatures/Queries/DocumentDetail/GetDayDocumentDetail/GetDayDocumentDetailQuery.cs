@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ReportFeatures.Queries.DocumentDetail.GetDayDocumentDetail;
+public sealed record GetDayDocumentDetailQuery(string companyId) : IQuery<GetDayDocumentDetailQueryResponse>;

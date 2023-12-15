@@ -1,0 +1,7 @@
+﻿using ATBasketRobotServer.Domain.CompanyEntities;
+using ATBasketRobotServer.Domain.Repositories.CompanyDbContext.ProductCampaignRepositories;
+using ATBasketRobotServer.Persistance.Repositories.GenericRepositories.CompanyDbContext;
+namespace ATBasketRobotServer.Persistance.Repositories.CompanyDbContext.ProductCampaignRepositories;
+public class ProductCampaignQueryRepository : CompanyDbQueryRepository<ProductCampaign>, IProductCampaignQueryRepository
+{
+}

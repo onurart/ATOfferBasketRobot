@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.DocumentFeatures.Commands.CreateDocumentAll;
+public sealed record CreateDocumentAllCommand : ICommand<CreateDocumentAllCommandResponse>;

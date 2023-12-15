@@ -1,0 +1,7 @@
+using ATBasketRobotServer.Domain.CompanyEntities;
+using ATBasketRobotServer.Domain.Repositories.CompanyDbContext.LogRepositories;
+using ATBasketRobotServer.Persistance.Repositories.GenericRepositories.CompanyDbContext;
+namespace ATBasketRobotServer.Persistance.Repositories.CompanyDbContext.LogRepositories;
+public class LogCommandRepository : CompanyDbCommandRepository<Log>, ILogCommandRepository
+{
+}

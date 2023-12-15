@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.OfferFeatures.Commands.UpdateOfferUpdateDate;
+public sealed record UpdateOfferUpdateDateCommandResponse(string Message = "Teklif güncelleme başarıyla tamamlandı!");

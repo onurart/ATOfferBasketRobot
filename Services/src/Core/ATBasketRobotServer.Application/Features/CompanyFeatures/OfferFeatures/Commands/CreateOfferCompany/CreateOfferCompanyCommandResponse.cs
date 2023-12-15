@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.OfferFeatures.Commands.CreateOfferCompany;
+public sealed record CreateOfferCompanyCommandResponse(string Message = "Tüm Teklif Kaydı Başarıyla Aktarıldı!");

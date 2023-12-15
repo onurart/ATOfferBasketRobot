@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductFeatures.Commands.CreateProductCompany;
+public sealed record CreateProductCompanyCommand(string companyId) : ICommand<CreateProductCompanyCommandResponse>;

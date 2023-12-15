@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCustomerBlockFeatures.Commands.RemoveProductCustomerBlock;
+public sealed record RemoveProductCustomerBlockCommandResponse(string Message = "Ürün Engelleme Başarıyla Kaldırıldı!");

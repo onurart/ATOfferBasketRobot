@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Domain.Dtos.Report;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ReportFeatures.Queries.ProductOfferedOrderCounts.GetProductOfferedOrderCount;
+public sealed record GetProductOfferedOrderCountQueryResponse(IList<ProductOfferedOrderCountsDto> data);

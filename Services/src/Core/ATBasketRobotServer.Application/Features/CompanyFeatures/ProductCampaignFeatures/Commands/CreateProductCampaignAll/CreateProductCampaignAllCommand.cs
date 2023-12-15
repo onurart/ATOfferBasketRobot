@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCampaignFeatures.Commands.CreateProductCampaignAll;
+public sealed record CreateProductCampaignAllCommand : ICommand<CreateProductCampaignAllCommandResponse>;

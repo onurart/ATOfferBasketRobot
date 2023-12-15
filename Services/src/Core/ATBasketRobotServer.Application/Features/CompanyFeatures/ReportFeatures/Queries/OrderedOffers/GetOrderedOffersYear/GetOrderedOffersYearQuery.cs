@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ReportFeatures.Queries.OrderedOffers.GetOrderedOffersYear;
+public sealed record GetOrderedOffersYearQuery(string companyId) : IQuery<GetOrderedOffersYearQueryResponse>;

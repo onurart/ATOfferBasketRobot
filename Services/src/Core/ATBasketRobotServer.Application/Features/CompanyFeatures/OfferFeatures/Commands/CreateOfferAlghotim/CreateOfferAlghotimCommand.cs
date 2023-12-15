@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.OfferFeatures.Commands.CreateOfferAlghotim;
+public sealed record CreateOfferAlghotimCommand(string companyId) : ICommand<CreateOfferAlghotimCommandResponse>;

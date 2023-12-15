@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Domain.Dtos;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCustomerBlockFeatures.Queries.GetAllProductCustomerBlockDto;
+public sealed record GetAllProductCustomerBlockDtoQueryResponse(IList<ProductCustomerBlockDto> data);

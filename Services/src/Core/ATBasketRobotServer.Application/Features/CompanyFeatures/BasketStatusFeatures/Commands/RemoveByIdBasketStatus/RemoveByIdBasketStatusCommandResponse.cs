@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.BasketStatusFeatures.Commands.RemoveByIdBasketStatus;
+public sealed record RemoveByIdBasketStatusCommandResponse(string Message = "Sepet kaydı başarıyla silindi!");

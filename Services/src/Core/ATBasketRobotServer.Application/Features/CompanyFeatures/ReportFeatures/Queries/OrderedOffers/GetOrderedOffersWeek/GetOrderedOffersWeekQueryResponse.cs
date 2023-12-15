@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Domain.Dtos.Report;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ReportFeatures.Queries.OrderedOffers.GetOrderedOffersWeek;
+public sealed record GetOrderedOffersWeekQueryResponse(IList<OrderedOffersWeekDto> data);

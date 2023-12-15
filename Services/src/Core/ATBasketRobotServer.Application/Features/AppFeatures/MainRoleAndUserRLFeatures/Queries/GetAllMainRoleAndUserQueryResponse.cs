@@ -1,0 +1,5 @@
+﻿using ATBasketRobotServer.Domain.AppEntities;
+namespace ATBasketRobotServer.Application.Features.AppFeatures.MainRoleAndUserRLFeatures.Queries;
+public sealed record GetAllMainRoleAndUserQueryResponse(List<MainRoleAndUserRelationship> mainRoleAndUserRelationships)
+{
+}

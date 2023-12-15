@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Domain.Dtos.Report;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ReportFeatures.Queries.TopCustomerOrderedSalesContent.TopCustomerOrderedSalesContent;
+public sealed record GetTopCustomerOrderedSalesContentQueryResponse(IList<TopCustomerOrderedSalesContentDto> data);

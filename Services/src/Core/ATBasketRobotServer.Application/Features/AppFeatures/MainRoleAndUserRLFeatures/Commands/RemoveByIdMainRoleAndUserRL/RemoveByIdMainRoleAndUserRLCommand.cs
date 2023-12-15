@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.AppFeatures.MainRoleAndUserRLFeatures.Commands.RemoveByIdMainRoleAndUserRL;
+public sealed record RemoveByIdMainRoleAndUserRLCommand(string Id) : ICommand<RemoveByIdMainRoleAndUserRLCommandResponse>;

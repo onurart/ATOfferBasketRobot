@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.OfferFeatures.Commands.RemoveByIdOffer;
+public sealed record RemoveByIdOfferCommandResponse(string Message = "Teklif silme başarıyla tamamlandı!");

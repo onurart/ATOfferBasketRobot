@@ -1,0 +1,5 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ReportFeatures.Queries.CustomerOfferedOrderCounts.GetCustomerOfferedOrderCounts;
+
+public sealed record GetCustomerOfferedOrderCountsQuery(string companyId) : IQuery<GetCustomerOfferedOrderCountsQueryResponse>;

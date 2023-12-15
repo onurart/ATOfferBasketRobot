@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.DocumentFeatures.Commands.CreateDocumentCompany;
+public sealed record CreateDocumentCompanyCommandResponse(string Message = "Tüm Dokuman Kaydı Başarıyla Aktarıldı!");

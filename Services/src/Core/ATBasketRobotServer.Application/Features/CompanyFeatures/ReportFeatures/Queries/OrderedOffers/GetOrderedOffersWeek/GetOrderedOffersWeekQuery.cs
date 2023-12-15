@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ReportFeatures.Queries.OrderedOffers.GetOrderedOffersWeek;
+public sealed record GetOrderedOffersWeekQuery(string companyId) : IQuery<GetOrderedOffersWeekQueryResponse>;

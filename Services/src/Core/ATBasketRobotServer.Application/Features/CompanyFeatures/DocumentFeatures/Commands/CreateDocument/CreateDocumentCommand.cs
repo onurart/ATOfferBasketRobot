@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.DocumentFeatures.Commands.CreateDocument;
+public sealed record CreateDocumentCommand(short? DocumetType, short? LineType, short? Billed, int Quantity, double? TlToltal, int? ProductReferance, int? CustomerReferance, string? DocumentNo, DateTime? DocumentDate, string companyId) : ICommand<CreateDocumentCommandResponse>;

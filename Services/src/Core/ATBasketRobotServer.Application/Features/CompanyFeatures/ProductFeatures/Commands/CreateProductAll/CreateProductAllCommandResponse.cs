@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductFeatures.Commands.CreateProductAll;
+public sealed record CreateProductAllCommandResponse(string Message = "Tüm Ürün kaydı başarıyla tamamlandı!");

@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.DocumentFeatures.Commands.UpdateDocument;
+public sealed record UpdateDocumentCommand(string Id, short? DocumetType, short? LineType, short? Billed, float Quantity, float? TlToltal, int? ProductReferance, int? CustomerReferance, string? DocumentNo, DateTime DocumentDate, string companyId) : ICommand<UpdateDocumentCommandResponse>;

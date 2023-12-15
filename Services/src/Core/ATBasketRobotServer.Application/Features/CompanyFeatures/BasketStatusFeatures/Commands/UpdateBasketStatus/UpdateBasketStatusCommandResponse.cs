@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.BasketStatusFeatures.Commands.UpdateBasketStatus;
+public sealed record UpdateBasketStatusCommandResponse(string Message = "Sepet kaydı başarıyla güncellendi!");

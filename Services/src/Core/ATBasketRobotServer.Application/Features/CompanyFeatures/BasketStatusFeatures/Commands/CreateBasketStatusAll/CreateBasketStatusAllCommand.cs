@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.BasketStatusFeatures.Commands.CreateBasketStatusAll;
+public sealed record CreateBasketStatusAllCommand : ICommand<CreateBasketStatusAllCommandResponse>;

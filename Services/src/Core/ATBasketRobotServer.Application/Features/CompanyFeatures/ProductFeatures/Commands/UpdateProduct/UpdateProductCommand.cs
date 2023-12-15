@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductFeatures.Commands.UpdateProduct;
+public sealed record UpdateProductCommand(string Id, long ProductReferance, string ProductCode, string ProductName, string ProductGroup1, string ProductGroup2, string ProductGroup3, string ProductGroup4, bool IsActive, bool IsDelete, string companyId) : ICommand<UpdateProductCommandResponse>;

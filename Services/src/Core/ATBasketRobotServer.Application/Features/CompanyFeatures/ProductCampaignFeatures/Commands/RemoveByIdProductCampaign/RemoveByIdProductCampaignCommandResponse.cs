@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCampaignFeatures.Commands.RemoveByIdProductCampaign;
+public sealed record RemoveByIdProductCampaignCommandResponse(string Message = "Ürün Kampanya silme başarıyla tamamlandı!");

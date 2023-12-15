@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Domain.CompanyEntities;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCampaignFeatures.Queries.GetAllProductCampaign;
+public sealed record GetAllProductCampaignQueryResponse(IList<ProductCampaign> Data);

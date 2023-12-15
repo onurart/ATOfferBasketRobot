@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCampaignFeatures.Commands.RemoveByIdProductCampaign;
+public sealed record RemoveByIdProductCampaignCommand(string Id, string companyId):ICommand<RemoveByIdProductCampaignCommandResponse>;

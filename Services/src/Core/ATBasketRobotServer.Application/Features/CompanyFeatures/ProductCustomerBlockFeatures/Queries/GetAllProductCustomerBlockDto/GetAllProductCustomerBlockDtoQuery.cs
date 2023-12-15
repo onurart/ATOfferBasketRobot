@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCustomerBlockFeatures.Queries.GetAllProductCustomerBlockDto;
+public sealed record GetAllProductCustomerBlockDtoQuery(string companyId) : IQuery<GetAllProductCustomerBlockDtoQueryResponse>;

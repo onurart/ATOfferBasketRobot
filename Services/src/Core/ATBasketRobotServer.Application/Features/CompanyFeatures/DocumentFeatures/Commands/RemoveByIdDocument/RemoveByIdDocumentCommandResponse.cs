@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.DocumentFeatures.Commands.RemoveByIdDocument;
+public sealed record RemoveByIdDocumentCommandResponse(string Message = "Doküman kaydı başarıyla silindi!");

@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCampaignFeatures.Commands.UpdateProductCampaign;
+public sealed record UpdateProductCampaignCommandResponse(string Message = "Ürün Kampanya güncelleme başarıyla tamamlandı!");

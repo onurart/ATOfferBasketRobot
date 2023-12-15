@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.AppFeatures.CompanyFeatures.Commands.UpdateCompany;
+public sealed record UpdateCompanyCommandResponse(string Message = "Şirket Güncellemesi Başarıyla Tamamlandı!");

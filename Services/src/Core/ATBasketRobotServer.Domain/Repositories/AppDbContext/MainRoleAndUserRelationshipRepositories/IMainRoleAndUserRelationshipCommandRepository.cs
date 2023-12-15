@@ -1,0 +1,6 @@
+using ATBasketRobotServer.Domain.AppEntities;
+using ATBasketRobotServer.Domain.Repositories.GenericRepositories.AppDbContext;
+namespace ATBasketRobotServer.Domain.Repositories.AppDbContext.MainRoleAndUserRelationshipRepositories;
+public interface IMainRoleAndUserRelationshipCommandRepository : IAppCommandRepository<MainRoleAndUserRelationship>
+{
+}

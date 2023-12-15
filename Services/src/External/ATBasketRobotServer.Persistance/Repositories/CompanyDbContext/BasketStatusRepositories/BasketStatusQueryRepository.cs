@@ -1,0 +1,7 @@
+﻿using ATBasketRobotServer.Domain.CompanyEntities;
+using ATBasketRobotServer.Domain.Repositories.CompanyDbContext.BasketStatusRepositories;
+using ATBasketRobotServer.Persistance.Repositories.GenericRepositories.CompanyDbContext;
+namespace ATBasketRobotServer.Persistance.Repositories.CompanyDbContext.BasketStatusRepositories;
+public class BasketStatusQueryRepository : CompanyDbQueryRepository<BasketStatus>, IBasketStatusQueryRepository
+{
+}

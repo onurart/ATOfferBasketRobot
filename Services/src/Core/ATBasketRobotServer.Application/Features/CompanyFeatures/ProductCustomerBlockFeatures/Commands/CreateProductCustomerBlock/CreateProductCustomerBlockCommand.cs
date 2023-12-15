@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCustomerBlockFeatures.Commands.CreateProductCustomerBlock;
+public sealed record CreateProductCustomerBlockCommand(string productid, string customerid, string companyId) : ICommand<CreateProductCustomerBlockCommandResponse>;

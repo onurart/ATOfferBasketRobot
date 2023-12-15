@@ -1,0 +1,8 @@
+using ATBasketRobotServer.Domain.AppEntities;
+using ATBasketRobotServer.Domain.Repositories.AppDbContext.UserAndCompanyRelationshipRepositories;
+using ATBasketRobotServer.Persistance.Repositories.GenericRepositories.AppDbContext;
+namespace ATBasketRobotServer.Persistance.Repositories.AppDbContext.UserAndCompanyRelationshipRepositories;
+public class UserAndCompanyRelationshipQueryRepository : AppQueryRepository<UserAndCompanyRelationship>, IUserAndCompanyRelationshipQueryRepository
+{
+    public UserAndCompanyRelationshipQueryRepository(Persistance.Context.AppDbContext context) : base(context) { }
+}

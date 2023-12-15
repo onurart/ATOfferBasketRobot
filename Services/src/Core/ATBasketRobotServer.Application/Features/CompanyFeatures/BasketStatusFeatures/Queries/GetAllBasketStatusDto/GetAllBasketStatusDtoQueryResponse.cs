@@ -1,0 +1,4 @@
+﻿using ATBasketRobotServer.Domain.CompanyEntities;
+using ATBasketRobotServer.Domain.Dtos;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.BasketStatusFeatures.Queries.GetAllBasketStatusDto;
+public sealed record GetAllBasketStatusDtoQueryResponse(IList<BasketStatusDto> Baskets);

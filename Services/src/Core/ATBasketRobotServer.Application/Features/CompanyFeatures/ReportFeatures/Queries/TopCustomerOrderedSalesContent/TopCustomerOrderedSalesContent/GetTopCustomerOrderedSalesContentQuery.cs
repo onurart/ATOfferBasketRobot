@@ -1,0 +1,4 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ReportFeatures.Queries.TopCustomerOrderedSalesContent.TopCustomerOrderedSalesContent;
+public sealed record GetTopCustomerOrderedSalesContentQuery(string companyId, string customerId) : IQuery<GetTopCustomerOrderedSalesContentQueryResponse>;

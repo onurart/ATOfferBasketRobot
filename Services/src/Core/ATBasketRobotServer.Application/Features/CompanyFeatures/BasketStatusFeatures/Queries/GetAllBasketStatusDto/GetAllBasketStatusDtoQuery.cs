@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.BasketStatusFeatures.Queries.GetAllBasketStatusDto;
+public sealed record GetAllBasketStatusDtoQuery(string companyId) : IQuery<GetAllBasketStatusDtoQueryResponse>;

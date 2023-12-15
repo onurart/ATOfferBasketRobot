@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Application.Messaging;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.CustomerFeatures.Queries.GetAllCustomerGroup;
+public sealed record GetAllCustomerGroupQuery(string companyid):IQuery<GetAllCustomerGroupQueryResponse>;

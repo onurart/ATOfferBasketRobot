@@ -1,0 +1,3 @@
+﻿using ATBasketRobotServer.Domain.Dtos.Report;
+namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ReportFeatures.Queries.OfferedOrderProduct.GetOfferedOrderProductMonth;
+public sealed record GetOfferedOrderProductMonthQueryResponse(IList<OrderedProductMonthDto> data);

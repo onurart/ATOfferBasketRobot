@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductFeatures.Commands.UpdateProductIsActive;
+public sealed record UpdateProductIsActiveCommandResponse(string Message = "Ürün başarıyla güncellendi!");

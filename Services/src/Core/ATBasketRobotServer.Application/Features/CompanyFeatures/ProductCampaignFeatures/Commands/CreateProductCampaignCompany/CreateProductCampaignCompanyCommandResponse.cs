@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.ProductCampaignFeatures.Commands.CreateProductCampaignCompany;
+public sealed record class CreateProductCampaignCompanyCommandResponse(string Message = "Tüm Ürün Kampanyaları Başarıyla Aktarıldı!");

@@ -1,0 +1,2 @@
+﻿namespace ATBasketRobotServer.Application.Features.CompanyFeatures.CustomerFeatures.Commands.RemoveByIdCustomer;
+public sealed record RemoveByIdCustomerCommandResponse(string Message = "Müşteri kaydı başarıyla silindi!");
