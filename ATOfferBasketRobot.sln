@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3F86FA33-E29D-41B1-8044-09C486A40772}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F379774E-4E8A-4441-94AD-A8286D6426E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E04F2712-138C-41A0-9CEF-1FFE7BE4BE8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{C669A92C-54ED-456E-B4D9-707220DA8BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATBasketRobotServer.Domain", "Services\src\Core\ATBasketRobotServer.Domain\ATBasketRobotServer.Domain.csproj", "{8698CDC6-4CDA-408C-9EB4-A582E82D5E33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8698CDC6-4CDA-408C-9EB4-A582E82D5E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8698CDC6-4CDA-408C-9EB4-A582E82D5E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8698CDC6-4CDA-408C-9EB4-A582E82D5E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8698CDC6-4CDA-408C-9EB4-A582E82D5E33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F379774E-4E8A-4441-94AD-A8286D6426E6} = {3F86FA33-E29D-41B1-8044-09C486A40772}
+		{E04F2712-138C-41A0-9CEF-1FFE7BE4BE8F} = {F379774E-4E8A-4441-94AD-A8286D6426E6}
+		{C669A92C-54ED-456E-B4D9-707220DA8BAB} = {F379774E-4E8A-4441-94AD-A8286D6426E6}
+		{8698CDC6-4CDA-408C-9EB4-A582E82D5E33} = {E04F2712-138C-41A0-9CEF-1FFE7BE4BE8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D0185A3-D116-4728-8F77-F0C9E50E3A5C}
+	EndGlobalSection
+EndGlobal
