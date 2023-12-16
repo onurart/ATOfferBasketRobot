@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ATBasketRobotServer.Persistance.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231215174639_MG1")]
-    partial class MG1
+    [Migration("20231216212752_mg_25")]
+    partial class mg25
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -222,7 +222,7 @@ namespace ATBasketRobotServer.Persistance.Migrations
                         {
                             Id = "45d7be85-af9e-4241-8933-e7e5a5020849",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e5b472ca-27bb-4744-b1af-b72b25deae5a",
+                            ConcurrencyStamp = "6a59947c-a14f-40f6-80c5-e5b70be11708",
                             Email = "onurumutluoglu@gmail.com",
                             EmailConfirmed = false,
                             FirstName = "Onur",
@@ -233,7 +233,7 @@ namespace ATBasketRobotServer.Persistance.Migrations
                             NormalizedUserName = "ONUR",
                             PasswordHash = "AQAAAAIAAYagAAAAEDEtGUt+pTdcsr7fWnH/wZ8lCAdhyveRfEU5RAjsvrDjQENcGESkOqAwyVx7RqrTbw==",
                             PhoneNumberConfirmed = false,
-                            RefreshToken = "9aeb7738-9ac4-433a-9fd0-474df2384a1a",
+                            RefreshToken = "6ea62c8e-14de-42a0-a318-25b709032f2d",
                             RefreshTokenExpires = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             SecurityStamp = "UGM43S2UTDAM4GLLRJERICUKWLE7MEYD",
                             TwoFactorEnabled = false,
@@ -307,7 +307,7 @@ namespace ATBasketRobotServer.Persistance.Migrations
                         new
                         {
                             Id = "02188350-e299-442d-8620-d17bbf855fdb",
-                            CreatedDate = new DateTime(2023, 12, 15, 20, 46, 39, 866, DateTimeKind.Local).AddTicks(8074),
+                            CreatedDate = new DateTime(2023, 12, 17, 0, 27, 52, 68, DateTimeKind.Local).AddTicks(777),
                             IsDelete = false,
                             IsRoleCreatedByAdmin = false,
                             Title = "ADMIN"
@@ -315,7 +315,7 @@ namespace ATBasketRobotServer.Persistance.Migrations
                         new
                         {
                             Id = "5e9915cc-bc27-4e26-8684-0a0e38a7c801",
-                            CreatedDate = new DateTime(2023, 12, 15, 20, 46, 39, 866, DateTimeKind.Local).AddTicks(8083),
+                            CreatedDate = new DateTime(2023, 12, 17, 0, 27, 52, 68, DateTimeKind.Local).AddTicks(788),
                             IsDelete = false,
                             IsRoleCreatedByAdmin = false,
                             Title = "EDITOR"
@@ -323,7 +323,7 @@ namespace ATBasketRobotServer.Persistance.Migrations
                         new
                         {
                             Id = "f42c9b68-7ea3-4812-8697-1c8667e29e31",
-                            CreatedDate = new DateTime(2023, 12, 15, 20, 46, 39, 866, DateTimeKind.Local).AddTicks(8084),
+                            CreatedDate = new DateTime(2023, 12, 17, 0, 27, 52, 68, DateTimeKind.Local).AddTicks(789),
                             IsDelete = false,
                             IsRoleCreatedByAdmin = false,
                             Title = "USER"
@@ -367,7 +367,7 @@ namespace ATBasketRobotServer.Persistance.Migrations
                         new
                         {
                             Id = "990d8fe5-6805-4805-bfcb-a4f4a5e18871",
-                            CreatedDate = new DateTime(2023, 12, 15, 20, 46, 39, 866, DateTimeKind.Local).AddTicks(8095),
+                            CreatedDate = new DateTime(2023, 12, 17, 0, 27, 52, 68, DateTimeKind.Local).AddTicks(1798),
                             IsDelete = false,
                             MainRoleId = "02188350-e299-442d-8620-d17bbf855fdb",
                             UserId = "45d7be85-af9e-4241-8933-e7e5a5020849"

@@ -80,10 +80,6 @@ public sealed class AppDbContext : IdentityDbContext<AppUser, AppRole, string>
                 CreatedDate = DateTime.Now
             }
             );
-        //builder.Entity<MainRoleAndUserRelationship>()
-        //   .HasOne(e => e.MainRoleId).WithMany(e=>e.)
-        //.OnDelete(DeleteBehavior.ClientCascade);
-
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

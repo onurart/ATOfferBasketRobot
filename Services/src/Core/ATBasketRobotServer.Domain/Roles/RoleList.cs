@@ -7,27 +7,7 @@ public sealed class RoleList
     {
         List<AppRole> appRoles = new List<AppRole>
         {
-         //   #region UCAF
-         //   new AppRole(
-         //   title: UCAF,
-         //   code: UCAFCreateCode,
-         //   name: UCAFCreateName),
-
-         //   new AppRole(
-         //   title: UCAF,
-         //   code: UCAFUpdateCode,
-         //   name: UCAFUpdateName),
-
-         //   new AppRole(
-         //   title: UCAF,
-         //   code: UCAFRemoveCode,
-         //   name: UCAFRemoveName),
-
-         //   new AppRole(
-         //   title: UCAF,
-         //   code: UCAFReadCode,
-         //   name: UCAFReadName),
-	        //#endregion      
+         
             
             #region PRODUCT
             new AppRole(title: PRODUCT,code : PRODUCTCreateCode,name : PRODUCTCreateName),

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ATBasketRobotServer.Persistance.Migrations
 {
     /// <inheritdoc />
-    public partial class MG1 : Migration
+    public partial class mg25 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -249,20 +249,20 @@ namespace ATBasketRobotServer.Persistance.Migrations
                 columns: new[] { "Id", "CreatedDate", "DeletedDate", "IsDelete", "IsRoleCreatedByAdmin", "Title", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { "02188350-e299-442d-8620-d17bbf855fdb", new DateTime(2023, 12, 15, 20, 46, 39, 866, DateTimeKind.Local).AddTicks(8074), null, false, false, "ADMIN", null },
-                    { "5e9915cc-bc27-4e26-8684-0a0e38a7c801", new DateTime(2023, 12, 15, 20, 46, 39, 866, DateTimeKind.Local).AddTicks(8083), null, false, false, "EDITOR", null },
-                    { "f42c9b68-7ea3-4812-8697-1c8667e29e31", new DateTime(2023, 12, 15, 20, 46, 39, 866, DateTimeKind.Local).AddTicks(8084), null, false, false, "USER", null }
+                    { "02188350-e299-442d-8620-d17bbf855fdb", new DateTime(2023, 12, 17, 0, 27, 52, 68, DateTimeKind.Local).AddTicks(777), null, false, false, "ADMIN", null },
+                    { "5e9915cc-bc27-4e26-8684-0a0e38a7c801", new DateTime(2023, 12, 17, 0, 27, 52, 68, DateTimeKind.Local).AddTicks(788), null, false, false, "EDITOR", null },
+                    { "f42c9b68-7ea3-4812-8697-1c8667e29e31", new DateTime(2023, 12, 17, 0, 27, 52, 68, DateTimeKind.Local).AddTicks(789), null, false, false, "USER", null }
                 });
 
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NameLastName", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpires", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "45d7be85-af9e-4241-8933-e7e5a5020849", 0, "e5b472ca-27bb-4744-b1af-b72b25deae5a", "onurumutluoglu@gmail.com", false, "Onur", "Umutluoglu", false, null, "onur UMUTLUOGLU@GMAİL.COM", "ONURUMUTLUOGLU@GMAİL.COM", "ONUR", "AQAAAAIAAYagAAAAEDEtGUt+pTdcsr7fWnH/wZ8lCAdhyveRfEU5RAjsvrDjQENcGESkOqAwyVx7RqrTbw==", null, false, "9aeb7738-9ac4-433a-9fd0-474df2384a1a", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "UGM43S2UTDAM4GLLRJERICUKWLE7MEYD", false, "onur" });
+                values: new object[] { "45d7be85-af9e-4241-8933-e7e5a5020849", 0, "6a59947c-a14f-40f6-80c5-e5b70be11708", "onurumutluoglu@gmail.com", false, "Onur", "Umutluoglu", false, null, "onur UMUTLUOGLU@GMAİL.COM", "ONURUMUTLUOGLU@GMAİL.COM", "ONUR", "AQAAAAIAAYagAAAAEDEtGUt+pTdcsr7fWnH/wZ8lCAdhyveRfEU5RAjsvrDjQENcGESkOqAwyVx7RqrTbw==", null, false, "6ea62c8e-14de-42a0-a318-25b709032f2d", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "UGM43S2UTDAM4GLLRJERICUKWLE7MEYD", false, "onur" });
 
             migrationBuilder.InsertData(
                 table: "MainRoleAndUserRelationships",
                 columns: new[] { "Id", "CreatedDate", "DeletedDate", "IsDelete", "MainRoleId", "UpdatedDate", "UserId" },
-                values: new object[] { "990d8fe5-6805-4805-bfcb-a4f4a5e18871", new DateTime(2023, 12, 15, 20, 46, 39, 866, DateTimeKind.Local).AddTicks(8095), null, false, "02188350-e299-442d-8620-d17bbf855fdb", null, "45d7be85-af9e-4241-8933-e7e5a5020849" });
+                values: new object[] { "990d8fe5-6805-4805-bfcb-a4f4a5e18871", new DateTime(2023, 12, 17, 0, 27, 52, 68, DateTimeKind.Local).AddTicks(1798), null, false, "02188350-e299-442d-8620-d17bbf855fdb", null, "45d7be85-af9e-4241-8933-e7e5a5020849" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_MainRoleAndUserRelationships_MainRoleId",
