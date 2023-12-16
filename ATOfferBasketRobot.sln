@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATBasketRobotServer.Present
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATBasketRobotServer.Application", "Services\src\Core\ATBasketRobotServer.Application\ATBasketRobotServer.Application.csproj", "{37D006EF-3E24-4C38-AB8D-160652A3CE9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATBasketRobotServerAPI", "Services\ATBasketRobotServerAPI\ATBasketRobotServerAPI.csproj", "{9F511521-0AA5-4D3D-ACA9-E59D46994E66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATBasketRobotServerAPI", "Services\ATBasketRobotServerAPI\ATBasketRobotServerAPI.csproj", "{9F511521-0AA5-4D3D-ACA9-E59D46994E66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xUnitTestesing", "xUnitTestesing", "{A117CB47-0F6C-45AC-B3AA-EA00172918FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATBasketRobot.UnitTest", "xUnitTestesing\ATBasketRobot.UnitTest\ATBasketRobot.UnitTest.csproj", "{95205C67-A09E-4755-A4AF-55127B094D79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{9F511521-0AA5-4D3D-ACA9-E59D46994E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F511521-0AA5-4D3D-ACA9-E59D46994E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F511521-0AA5-4D3D-ACA9-E59D46994E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95205C67-A09E-4755-A4AF-55127B094D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95205C67-A09E-4755-A4AF-55127B094D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95205C67-A09E-4755-A4AF-55127B094D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95205C67-A09E-4755-A4AF-55127B094D79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +75,7 @@ Global
 		{F5766B08-0987-4F8D-BC09-E7BA13A3762B} = {C669A92C-54ED-456E-B4D9-707220DA8BAB}
 		{37D006EF-3E24-4C38-AB8D-160652A3CE9F} = {E04F2712-138C-41A0-9CEF-1FFE7BE4BE8F}
 		{9F511521-0AA5-4D3D-ACA9-E59D46994E66} = {F379774E-4E8A-4441-94AD-A8286D6426E6}
+		{95205C67-A09E-4755-A4AF-55127B094D79} = {A117CB47-0F6C-45AC-B3AA-EA00172918FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D0185A3-D116-4728-8F77-F0C9E50E3A5C}
