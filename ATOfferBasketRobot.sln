@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATBasketRobotServerAPI", "S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xUnitTestesing", "xUnitTestesing", "{A117CB47-0F6C-45AC-B3AA-EA00172918FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATBasketRobot.UnitTest", "xUnitTestesing\ATBasketRobot.UnitTest\ATBasketRobot.UnitTest.csproj", "{95205C67-A09E-4755-A4AF-55127B094D79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATBasketRobot.UnitTest", "xUnitTestesing\ATBasketRobot.UnitTest\ATBasketRobot.UnitTest.csproj", "{95205C67-A09E-4755-A4AF-55127B094D79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backgroundworker", "Backgroundworker", "{38BA20A8-9BE6-49C9-BC2C-46595A7D04C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

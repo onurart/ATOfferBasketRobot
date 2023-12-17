@@ -1,13 +1,23 @@
-﻿namespace ATBasketRobotServerAPI.Services;
+﻿using ATBasketRobotServerAPI.Models;
+
+namespace ATBasketRobotServerAPI.Services;
 public class WorkerService : BackgroundService
 {
     private readonly ILogger<WorkerService> _logger;
+    IConfigurationRoot _configuration;
     bool _disposed;
-    public WorkerService(ILogger<WorkerService> logger)
+    public WorkerService(ILogger<WorkerService> logger, IConfigurationRoot configuration = null)
     {
         _logger = logger;
+        _configuration = configuration;
     }
 
+    private ApiSettings LoadApiSettings()
+    {
+        var apiSetting = new ApiSettings();
+        _configuration.GetSection("ApiSettings").Bind(apiSetting);
+        return apiSetting;
+    }
     //private const int generalDelay = 1 * 10 * 1000; // 10 seconds
     private const int generalDelay = 1 * 10 * 10000; // 10 seconds
 
@@ -33,13 +43,23 @@ public class WorkerService : BackgroundService
 
     private async Task DoBackupAsync()
     {
-        string baseURL = "https://localhost:7065/api";
-        APIClients client = new APIClients(baseURL);
+        //string baseURL = "https://localhost:7065/api";
+        //APIClients client = new APIClients(baseURL);
 
-        foreach (var endpoint in endpoints)
+        //foreach (var endpoint in endpoints)
+        //{
+        //    await ProcessEndpointAsync(client, endpoint);
+        //    await Task.Delay(1000);
+        //}
+
+        var apiSetting = LoadApiSettings(); // Change to apiSetting
+        using (var client = new APIClients(apiSetting.BaseURL))
         {
-            await ProcessEndpointAsync(client, endpoint);
-            await Task.Delay(1000);
+            foreach (var endpoint in endpoints)
+            {
+                await ProcessEndpointAsync(client, endpoint);
+                await Task.Delay(apiSetting.DelayMilliseconds);
+            }
         }
     }
 

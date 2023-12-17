@@ -1,6 +1,6 @@
 ﻿namespace ATBasketRobotServerAPI.Services;
 
-public class APIClients
+public class APIClients:IDisposable
 {
     private readonly HttpClient _httpClient;
     private readonly string _baseURL;
@@ -10,6 +10,7 @@ public class APIClients
         _httpClient = new HttpClient();
         _baseURL = baseURL;
     }
+
     public async Task<string> GetDataAsync(string endpoint)
     {
         string url = $"{_baseURL}/{endpoint}";
@@ -23,5 +24,10 @@ public class APIClients
         {
             return null;
         }
+    }
+
+    public void Dispose()
+    {
+        _httpClient.Dispose();
     }
 }
